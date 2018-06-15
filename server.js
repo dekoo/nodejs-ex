@@ -53,7 +53,7 @@ var initDb = function(callback) {
     dbDetails.type = 'MongoDB';
 
     console.log('Connected to MongoDB at: %s', mongoURL);
-  });
+  }); 
 };
 
 app.get('/', function (req, res) {
